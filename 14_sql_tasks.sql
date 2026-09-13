@@ -2,9 +2,9 @@ SQL
 
 1 All film with PG-13 film with rental rate of 2.99 or lower
 
-	  SELECT title, rating, rental_rate 
+	SELECT title, rating, rental_rate 
    	FROM sakila.film f
-	  WHERE rating = 'PG-13' 
+	WHERE rating = 'PG-13' 
    	AND rental_rate<=2.99
 
 2 All film that have deleted scenes
